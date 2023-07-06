@@ -20,7 +20,7 @@ for (const r of productosenStock){
     console.log(r)
 }
 
-//[]
+//[] 
 console.log('|1|para comprar y espesificar medidas de mueblesmoviles, |2| para comprar domino de animales, |3| para comprar y espesificar largo de Porta rollo')
 let compra = prompt('indique el producto | 1 - 2 - 3|')
 if (compra == 1){
@@ -30,7 +30,7 @@ if (compra == 1){
     let profundidadM = prompt('indique profundidad del Mueble Movil')
     const mueblesMovil = new producto(precioM, alturaM, anchoM, profundidadM)
     mueblesMovil.vender()
-    productosenStock.splice(0,0)
+    productosenStock.splice(0,1)
 
    console.log(mueblesMovil)
 
